@@ -1,0 +1,48 @@
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.carousel{
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+.carousel-inner{
+    width: 100%;
+}
+.carousel-item{
+    height: 300px;
+    padding-bottom: 20px;
+}
+.item q{
+    width: 350px;
+    margin: auto;
+    display: inline-block;
+}
+.carousel-indicators{
+    position: absolute;
+    bottom: 0;
+}
+/* Its not working */
+.carousel-indicators [data-bs-target]{
+    height: 20px !important;
+    width: 20px !important;
+    border-radius: 50% !important;
+    background-color: rgb(243, 72, 72) !important;
+}
+.bi-arrow-right-circle,
+.bi-arrow-left-circle{
+    color: rgb(243, 72, 72);
+    font-size: 1.8rem;
+    position: absolute;
+}
+.bi-arrow-right-circle{
+    right: 50%;
+}
+.bi-arrow-left-circle{
+    left: 50%;
+}
+.stars i{
+    color: rgb(243, 72, 72);
+}
